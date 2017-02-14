@@ -104,7 +104,7 @@ Use the following guidelines while planning your visual:
 
 4. Ensure that elements in the visual do not overlap each other on different sizes of the visual, different types of datasets and different formatting settings.
 
-5. Use [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331) font for user interface text. This way labels of your  visual will be the same style as other visuals on the report. Example of such font fallback:
+5. Use [Segoe UI](https://www.microsoft.com/typography/fonts/family.aspx?FID=331) font for user interface text. This way labels of your visual will be the same style as other visuals on the report. Example of such font fallback:
         
         .chicletSlicer {
             font-family: 'Segoe UI', 'wf_segoe-ui_normal', helvetica, arial, sans-serif;
