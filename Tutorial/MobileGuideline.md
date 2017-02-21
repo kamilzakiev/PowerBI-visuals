@@ -39,7 +39,7 @@ Support small sizes of the visual. Visual should be mobile-friendly in Focus mod
 It is good to have the same performance of the visual on mobile as in desktop browsers.
 
 ### Failover
-Visual should show desriptive error if it cannot be rendered on mobile devices for some reasons.
+Visual should show descriptive error if it cannot be rendered on mobile devices for some reasons.
 
 ### Interactions
 Consider adding mobile-specific event handlers, like dragging.
