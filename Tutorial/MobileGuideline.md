@@ -13,7 +13,7 @@ Visual should take less than 10 seconds to render using sample data.
 ### Interactivity
 Interactivity is important in order to provide the same functionality as for desktop devices. Try to support all events that are handled on desktop browsers or support analogous event handlers for mobile devices. Selection of data points and navigation should be implemented if visual provides such functionality in desktop browsers. If visual supports multi-selecting using Ctrl key - consider adding similar event handling for mobile devices.
 
-Please consider that mobile devices (touch screen devices) don't support any mouse events (all events with "mouse" prefix). In other words, you have to listen to mouse and touch events at the same.
+Note that mobile devices (touch screen devices) don't support any mouse events (all events with "mouse" prefix). In other words, you have to listen to mouse and touch events at the same.
 
 Use the following table in order to choose the correct event name at mobile devices:
 
