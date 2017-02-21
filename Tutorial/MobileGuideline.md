@@ -2,7 +2,7 @@
 Power BI allows to stay connected to your data everywhere and offers everyone mobile support of Power BI reports and dashboards as long as Power BI apps for Windows, iOS, and Android devices. Many Power BI users are using mobile devices, so development of mobile-friendly experience should be important part of your visual development.
 
 ## Must-Have requirements
-The following requirements should be considered in order to create mobile-friendly visual.
+The following requirements are essential in development of mobile-friendly visual.
 
 ### Rendering
 Custom visual should render on all supported mobile browsers and mobile applications without errors in reports, dashboards and in focus mode. 
@@ -30,10 +30,11 @@ Use the following table in order to choose the correct event name at mobile devi
 | wheel | NaN |
 
 ## Nice-to-Have requirements
+Consider implementing requirements below to provide the best experience for mobile users.
 
 ###Rendering
-Focus mode for mobile will be mobile friendly – optimized for the mobile screen size/portrait and landscape
-Support small sizes of the visual
+Support small sizes of the visual. Visual should be mobile-friendly in Focus mode – it should be optimized for the mobile screen size and support both portrait and landscape orientations.
+
 Formatting options to change the size of visual elements (labels for example)
 
 ### Performance
