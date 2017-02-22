@@ -11,7 +11,7 @@ Custom visual should render on all supported mobile browsers and mobile applicat
 Visual should take less than 10 seconds to render using sample data.
 
 ### Interactivity
-Interactivity is important in order to provide the same functionality as for desktop devices. Try to support all events that are handled on desktop browsers or support analogous event handlers for mobile devices. Selection of data points and navigation should be implemented if visual provides such functionality in desktop browsers. If visual supports multi-selecting using Ctrl key - consider adding similar event handling for mobile devices.
+Interactivity is important in order to provide the same functionality as for desktop devices. Try to support all events that are handled on desktop browsers or support analogous event handlers for mobile devices. Selection of data points and navigation should be implemented if visual provides such functionality on desktop browsers. If visual supports multi-selecting using Ctrl key - consider adding similar event handling for mobile devices.
 
 Note that mobile devices (touch screen devices) don't support any mouse events (all events with "mouse" prefix). In other words, you have to listen to mouse and touch events at the same.
 
@@ -36,7 +36,7 @@ Consider implementing requirements below to provide the best experience for mobi
 Support small sizes of the visual. Visual should be mobile-friendly in Focus mode – it should be optimized for the mobile screen size and support both portrait and landscape orientations. Add new formatting options to change the size of visual elements (for example, of labels). Such improvement will allow users to customize visual for their dashboards on mobile devices.
 
 ### Performance
-It is good to have the same performance of the visual on mobile as in desktop browsers.
+It is good to have the same performance of the visual on mobile as on desktop browsers.
 
 ### Failover
 Visual should show descriptive error if it cannot be rendered on mobile devices for some reasons.
