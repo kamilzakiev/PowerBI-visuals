@@ -11,7 +11,7 @@ Custom visual must render on all supported mobile browsers and mobile applicatio
 ### Interactivity
 Interactivity is important in order to provide the same functionality as for desktop devices. Try to support all events that are handled on desktop browsers or support analogous event handlers for mobile devices. Selection of data points and navigation should be implemented if visual provides such functionality on desktop browsers. If visual supports multi-selecting using Ctrl key - consider adding similar event handling for mobile devices.
 
-Note that mobile devices (touch screen devices) don't support any mouse events (all events with "mouse" prefix). In other words, you have to listen to mouse and touch events at the same.
+Note that some mobile devices (touch screen devices) don't support any mouse events (all events with "mouse" prefix). In other words, you have to listen to mouse and touch events at the same.
 
 Use the following table in order to choose the correct event name at mobile devices:
 
@@ -31,13 +31,37 @@ Use the following table in order to choose the correct event name at mobile devi
 Consider implementing requirements below to provide the best experience for mobile users.
 
 ###Rendering
-Support small sizes of the visual. Visual should be mobile-friendly in Focus mode – it should be optimized for the mobile screen size and support both portrait and landscape orientations. Add new formatting options to change the size of visual elements (for example, of labels). Such improvement will allow users to customize visual for their dashboards on mobile devices.
+Visual should be mobile-friendly in Focus mode – it should be optimized for the mobile screen size and looks good both in portrait and landscape orientations. 
+
+Support small sizes of the visual.  Add new formatting options so a user will be able to change the size of visual elements (for example, of labels). Such improvement will allow users to customize visual for their reports or dashboards on mobile devices. Note that the same settings will be applied to the visual in desktop browsers. If needed, you can override user formatting settings in order to adapt your visual to the small sizes of the visual.
 
 ### Failover
 Visual should show descriptive error if it cannot be rendered on mobile devices for some reasons.
 
 ### Interactions
-Consider adding mobile-specific event handlers, like dragging.
+Consider adding mobile-specific event handlers, like dragging and scrolling.
 
 ## Supported browsers and devices
-Visual should be rendered on all devices that support Power BI Apps - see details [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-power-bi-apps-for-mobile-devices/). Also test your visual in default browsers for Windows 10, iOS and Android devices.
+Visual should be rendered on all devices that support Power BI Apps. 
+
+Test your visual against the followng devices to be sure that it provides the best experience to mobile users:
+-	iPhone devices 
+  - iPhone 6
+  -	iPhone 6s
+-	iPad tablets 
+  -	iPad 5
+  -	iPad 4
+-	Android devices 
+  -	Samsung Galaxy S7 Edge
+  -	Samsung Galaxy S7 
+  -	Samsung Galaxy S6
+  -	Google Nexus 6P
+  -	Samsung Galaxy S6 Edge
+-	Android tablets 
+  -	Google Nexus 7
+  -	Samsung Galaxy Tab 
+  -	Samsung Galaxy Tab A 
+-	Windows devices
+  -	Surface Pro 3
+  -	Surface Pro 4
+
