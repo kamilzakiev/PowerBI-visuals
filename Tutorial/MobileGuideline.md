@@ -64,4 +64,5 @@ Test your visual against the followng devices to be sure that it provides the be
 -	Windows devices
   -	Surface Pro 3
   -	Surface Pro 4
+  - Lumia 950 or Lumia 950 XL
 
