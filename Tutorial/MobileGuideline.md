@@ -44,10 +44,10 @@ Consider adding mobile-specific event handlers, like dragging and scrolling.
 ## Supported browsers and devices
 Visual should be rendered on all devices that support Power BI Apps. 
 
-Test your visual against the followng devices to be sure that it provides the best experience to mobile users:
--	iPhone devices 
-  - iPhone 6
-  -	iPhone 6s
+Testing against latest models of Windows, iOS and Android devices should cover most quality aspects. Use the following devices list for testing to be sure that your visual provides the best experience to mobile users:
+-	iPhone devices
+  - iPhone 7
+  - iPhone 6 or iPhone 6s
 -	iPad tablets 
   -	iPad 5
   -	iPad 4
